@@ -8,7 +8,7 @@ MODULE Math1;
       c4 = 1.82984424;
       c5 = 1.65677798;
     VAR e: INTEGER; y: REAL;
-  BEGIN ASERT(x > 0.0); UNPK(x, e);
+  BEGIN ASSERT(x > 0.0); UNPK(x, e);
     y := x * 0.5; INC(e);
     IF y < c1 THEN y := 2.0*y; DEC(e) END;
     y := (y-1.0)/(y+1.0);
