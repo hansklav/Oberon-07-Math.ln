@@ -24,9 +24,9 @@ MODULE Math1;	(** portable *)
   END ln;
 
 BEGIN
-	S.PUT(S.ADR(c41), 03F3504F3H);	(* 1/sqrt(2) *)
-	S.PUT(S.ADR(c42), 03F317218H);	(* ln(2) *)
-	S.PUT(S.ADR(c43), 03F654226H);
-	S.PUT(S.ADR(c44), 03FEA3856H);
-	S.PUT(S.ADR(c45), 03FD4114DH)
+  S.PUT(S.ADR(c41), 03F3504F3H);  (* 1/sqrt(2) *)
+  S.PUT(S.ADR(c42), 03F317218H);  (* ln(2) *)
+  S.PUT(S.ADR(c43), 03F654226H);
+  S.PUT(S.ADR(c44), 03FEA3856H);
+  S.PUT(S.ADR(c45), 03FD4114DH)
 END Math1.
