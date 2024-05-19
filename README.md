@@ -1,7 +1,7 @@
 # Oberon-07-Math.ln
 ## A corrected implementation of Math.ln(x) for Project Oberon 2013.
 
-Unfortunately the standard ln(x) function of module Math does not give very accurate result.
+Unfortunately the standard ln(x) function of module Math does not give very accurate results.
 
 This is an improved implementation for 32-bit type REAL that gives at least 7 correct digits for every x > 0.
 
