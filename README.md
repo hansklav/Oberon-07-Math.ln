@@ -5,7 +5,7 @@ Unfortunately the standard ln(x) (natural logarithm) function of module Math doe
 
 This is an improved implementation of the function for 32-bit type REAL. It gives at least 7 correct significant digits for every x > 0.
 
-With the help of two older Oberon implementations I was able to figure out this corrected version of Math.ln(x). My purpose was a function in the spirit of the present one, that uses the UNPK(x, e) standard procedure, and which doesn't need SYSTEM. The new version turns out to be even simpler than the present one.
+With the help of two older Oberon implementations I was able to figure out this corrected version of Math.ln(x). My target was a function in the spirit of the present one, that uses the UNPK(x, e) standard procedure, and which doesn't need SYSTEM. The new version turns out to be even simpler than the present one.
 
 The file Math.ln.Mod contains the new version. 
 
