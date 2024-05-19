@@ -1,5 +1,5 @@
 MODULE Math1;	(** portable *)  
-(* Relevant parts of Math.Mod from ETH OBERON System 3, Release 2.3
+(* Relevant parts of Math.Mod for Math.ln from ETH OBERON System 3, Release 2.3
    Ported to Oberon-07 by Hans Klaver 18 May 2024. *)
 
   IMPORT S := SYSTEM;
