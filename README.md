@@ -9,6 +9,6 @@ With the help of two older Oberon implementations I was able to figure out this 
 
 The file Math.ln.Mod contains the new version. 
 
-This repository also shows the two older Oberon implementations: the files MathGriebling.Mod and MathETH3.Mod contain the ln(x) function in their complete Oberon (1990) Math.Mod context. The files Math1Griebling.Mod and Math1ETH3.Mod contain my ports to Oberon-07 of these older ln(x) functions which helped me to find the final Oberon-07 implementation.
+This repository also shows the two older Oberon implementations: the files MathGriebling.Mod and MathETH3.Mod contain the ln(x) function in their complete Oberon (1990) Math.Mod context. The files Math1Griebling.ln.Mod and Math1ETH3.ln.Mod contain my ports to Oberon-07 of these older ln(x) functions which helped me to find the final Oberon-07 implementation.
 
 TestMath.Mod provides a test suite for all the functions of Math.Mod. You can use this to verify the results and compare them with results of a calculator or of (Wolfram Alpha)[https://www.wolframalpha.com].
