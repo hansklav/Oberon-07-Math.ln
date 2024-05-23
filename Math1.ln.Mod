@@ -1,5 +1,5 @@
 MODULE Math1;
-
+(*
   PROCEDURE ln* (x: REAL): REAL;  (* hk  18 May 2024 *)
     CONST
       c1 = 0.70710678;  (* 1/ sqrt(2) *)
@@ -15,7 +15,7 @@ MODULE Math1;
     y := c2*FLT(e) + y*(c3 + c4/(c5 - y*y))
   RETURN y
   END ln;
-
+*)
   PROCEDURE ln*(x: REAL): REAL;  (* Joerg Straube 22.5.2024 *)
   (* ln(x) = 2*arctanh( (x-1)/(x+1) )
      around 0, arctan() is almost linear with slope 1
@@ -35,5 +35,4 @@ MODULE Math1;
   RETURN x 
   END ln;
 
-  
 END Math1.
