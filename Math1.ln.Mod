@@ -18,7 +18,7 @@ MODULE Math1;
 *)
   PROCEDURE ln*(x: REAL): REAL;  (* Joerg Straube 22.5.2024 *)
   (* ln(x) = 2*arctanh( (x-1)/(x+1) )
-     around 0, arctan() is almost linear with slope 1
+     around 0, arctanh() is almost linear with slope 1
   *)
     CONST
       c1 = 1.4142135;  (* sqrt(2) *)
