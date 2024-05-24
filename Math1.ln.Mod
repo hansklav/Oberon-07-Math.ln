@@ -16,7 +16,7 @@ MODULE Math1;
   RETURN y
   END ln;
 *)
-  PROCEDURE ln*(x: REAL): REAL;  (* Joerg Straube 22.5.2024 *)
+  PROCEDURE ln* (x: REAL): REAL;  (* Joerg Straube 22.5.2024 *)
   (* ln(x) = 2*arctanh( (x-1)/(x+1) )
      around 0, arctanh() is almost linear with slope 1
   *)
